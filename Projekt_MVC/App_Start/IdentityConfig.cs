@@ -5,7 +5,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
-using Domain.Models;
+using Projekt_MVC.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
@@ -13,7 +13,7 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security;
 
 
-namespace Domain
+namespace Projekt_MVC
 {
     public class EmailService : IIdentityMessageService
     {

@@ -8,9 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using Domain.Models;
+using Projekt_MVC.Models;
 
-namespace Domain.Controllers
+namespace Projekt_MVC.Controllers
 {
     [Authorize]
     public class AccountController : Controller

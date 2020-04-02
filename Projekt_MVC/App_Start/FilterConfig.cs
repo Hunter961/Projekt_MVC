@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace Domain
+namespace Projekt_MVC
 {
     public class FilterConfig
     {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Context
+namespace Projekt_MVC.Context
 {
     class DomainDbContext:DbContext
     {
