@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using Projekt_MVC.Models;
+using Domain.Models;
 
-namespace Projekt_MVC
+namespace Domain
 {
     public partial class Startup
     {

@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Projekt_MVC
+namespace Domain
 {
     public class BundleConfig
     {
