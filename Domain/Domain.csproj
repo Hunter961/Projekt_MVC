@@ -99,6 +99,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\DomainDbContext.cs" />
+    <Compile Include="Migrations\202004030953120_init.cs" />
+    <Compile Include="Migrations\202004030953120_init.Designer.cs">
+      <DependentUpon>202004030953120_init.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -112,6 +116,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202004030953120_init.resx">
+      <DependentUpon>202004030953120_init.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
