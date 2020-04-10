@@ -115,6 +115,10 @@
     <Compile Include="Migrations\202004101822129_update_table.Designer.cs">
       <DependentUpon>202004101822129_update_table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004101911557_User_Roles.cs" />
+    <Compile Include="Migrations\202004101911557_User_Roles.Designer.cs">
+      <DependentUpon>202004101911557_User_Roles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -141,6 +145,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004101822129_update_table.resx">
       <DependentUpon>202004101822129_update_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004101911557_User_Roles.resx">
+      <DependentUpon>202004101911557_User_Roles.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
