@@ -107,6 +107,10 @@
     <Compile Include="Migrations\202004100959366_Database-Seed.Designer.cs">
       <DependentUpon>202004100959366_Database-Seed.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004101817573_DataAnnotations.cs" />
+    <Compile Include="Migrations\202004101817573_DataAnnotations.Designer.cs">
+      <DependentUpon>202004101817573_DataAnnotations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -127,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004100959366_Database-Seed.resx">
       <DependentUpon>202004100959366_Database-Seed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004101817573_DataAnnotations.resx">
+      <DependentUpon>202004101817573_DataAnnotations.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
