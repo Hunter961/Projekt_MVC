@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Projekt_MVC.Context
 {
-    class DomainDbContext:DbContext
+    public class DomainDbContext:DbContext
     {
         DbSet<Employee> Employees { get; set; }
     }

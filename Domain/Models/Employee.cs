@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain.Models
 {
-    class Employee
+    public class Employee
     {
         [Key]
         [Column(Order =1)]
