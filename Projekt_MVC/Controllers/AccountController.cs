@@ -12,6 +12,7 @@ using Projekt_MVC.Models;
 
 namespace Projekt_MVC.Controllers
 {
+    [RequireHttps]
     [Authorize]
     public class AccountController : Controller
     {

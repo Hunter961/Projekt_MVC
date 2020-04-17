@@ -8,6 +8,9 @@ namespace Projekt_MVC.Controllers
 {
     public class HomeController : Controller
     {
+        [AllowAnonymous]
+        [RequireHttps]
+        
         public ActionResult Index()
         {
             return View();
